@@ -1,0 +1,73 @@
+.ProfilePage {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.ProfileTitle {
+    background-color: var(--fullWhite);
+    width: 1000px;
+    margin-top: 140px;
+    margin-bottom: 50px;
+    border-radius: var(--borderRadius);
+    display: flex;
+}
+
+.PhotoName {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 40px;
+    position: relative;
+    top: -100px;
+}
+
+.PhotoName img {
+    background-color: var(--neutralDark);
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+    width: 200px;
+}
+
+.PhotoName h3 {
+    font-size: 32px;
+    margin: 10px 0px;
+}
+
+.PhotoName p {
+    margin: 0px;
+}
+
+.profileInfos {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.infoElement {
+    display: flex;
+}
+
+.infoElement:first-child {
+    /* margin-top: 20px; */
+    margin-top: auto;
+}
+
+.infoElement:last-child {
+    margin-bottom: auto;
+}
+
+.infoElement p {
+    width: 200px;
+    margin: 0px;
+    font-size: 20px;
+}
+
+.infoElement h3 {
+    font-size: 20px;
+    margin: 0px;
+}
+
